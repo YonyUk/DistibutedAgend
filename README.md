@@ -3,7 +3,7 @@
 ```python
 from frontend import *
 
-app = Application((url)
+app = Application(url)
 # sustituye 'url' por la direccion a la que te vayas a conectar
 # Ej: url = 'localhost',8000
 app.config(on_login_callback=login_callback)
